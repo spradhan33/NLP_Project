@@ -87,9 +87,10 @@ Mini projects
 Lab experiments and viva
 It emphasizes understanding NLP preprocessing concepts visually.
 
-## 👤 Author 
+```## 👤 Author 
 Satyabrata Pradhan
 B.Tech – Computer Science & Engineering
+```
 
 ## 📌 Future Improvements 
 Add Word2Vec / GloVe embeddings
