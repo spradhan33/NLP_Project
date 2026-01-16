@@ -38,7 +38,7 @@ Text preprocessing is a fundamental step in NLP pipelines such as sentiment anal
 - scikit-learn  
 - Pandas  
 - Regular Expressions (re)
-
+```
 ## 📂 Project Structure
 NLP/
 ├── NLP_Project.py # Streamlit application
@@ -46,7 +46,7 @@ NLP/
 ├── .gitignore # Ignored files and folders
 ├── runtime.txt # Python runtime configuration
 └── nlpenv/ # Virtual environment (ignored)
-
+```
 ## ▶️ How to Run the Project
 
 ### 1️⃣ Install Dependencies
@@ -60,6 +60,7 @@ python -m spacy download en_core_web_sm
   noisy_text: "NLP!!! is 100% useful in 2025 & beyond :)"
   lemmatization_example: "The children are playing games and running fast."
 
+```
 ## 📊 NLP Technique Logic
 | Technique        | Description |
 |------------------|-------------|
@@ -70,6 +71,7 @@ python -m spacy download en_core_web_sm
 | Bag of Words     | Represents text using word frequency counts |
 | TF-IDF           | Measures the importance of words in a document |
 | Word Embedding   | Represents words as binary numerical vectors |
+``` 
 
 ### ⚠️ Limitations 
 No deep learning or ML model is used
