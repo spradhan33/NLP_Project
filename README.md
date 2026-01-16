@@ -11,63 +11,56 @@ Interface: Streamlit Web App
 
 Text preprocessing is a fundamental step in NLP pipelines such as sentiment analysis, text classification, and information retrieval. This project focuses on concept clarity and visualization rather than model training.
 
-**✨ Features**
-<!-- Sentence-level and word-level tokenization -->
+## ✨ Features
 
-**Text cleaning:**
-Lowercasing
-Punctuation removal
-Digit removal
-Stopword removal
+- Sentence-level and word-level tokenization  
+- Text cleaning:
+  - Lowercasing  
+  - Punctuation removal  
+  - Digit removal  
+  - Stopword removal  
+- Stemming using:
+  - Porter Stemmer  
+  - Lancaster Stemmer  
+- Lemmatization with Part-of-Speech (POS) tagging  
+- Bag of Words (BoW) representation  
+- TF-IDF scoring  
+- Simple binary word embedding representation  
+- Interactive and easy-to-use Streamlit interface
 
-**Stemming using:**
-Porter Stemmer
-Lancaster Stemmer
-Lemmatization with Part-of-Speech (POS) tagging
-Bag of Words (BoW) representation
-TF-IDF (Term Frequency–Inverse Document Frequency) scoring
-Simple binary word embedding representation
-Interactive and easy-to-use Streamlit interface
 
-***🛠️ Technologies Used***
+## 🛠️ Technologies Used
 
-*Python 3.11*
+- Python 3.11  
+- Streamlit  
+- NLTK  
+- spaCy  
+- scikit-learn  
+- Pandas  
+- Regular Expressions (re)
 
-Streamlit
-NLTK
-spaCy
-scikit-learn
-Pandas
-Regular Expressions (re)
-
-***📂 Project Structure***
+## 📂 Project Structure
 NLP/
-├── NLP_Project.py        <!--# Streamlit application-->
-├── README.md             <!--# Project documentation-->
-├── .gitignore            <!--# Ignored files and folders-->
-├── runtime.txt           <!--# Python runtime configuration-->
-└── nlpenv/               <!--# Virtual environment (ignored)-->
+├── NLP_Project.py # Streamlit application
+├── README.md # Project documentation
+├── .gitignore # Ignored files and folders
+├── runtime.txt # Python runtime configuration
+└── nlpenv/ # Virtual environment (ignored)
 
-**▶️ How to Run the Project**
-1️⃣ Install Dependencies
+## ▶️ How to Run the Project
+
+### 1️⃣ Install Dependencies
+
+```bash
 pip install streamlit nltk spacy pandas scikit-learn
 python -m spacy download en_core_web_sm
+```
 
-2️⃣ Run the Streamlit App
-streamlit run NLP_Project.py
+  simple_text: "Aman is the HOD of HIT and loves NLP."
+  noisy_text: "NLP!!! is 100% useful in 2025 & beyond :)"
+  lemmatization_example: "The children are playing games and running fast."
 
-The application will open in your browser at:
-http://localhost:8501
-
-**🧪 Example Inputs to Test**
-<!-- **Simple Text** -->
-Aman is the HOD of HIT and loves NLP.
-<!-- **Noisy Text** -->
-NLP!!! is 100% useful in 2025 & beyond :)
-<!-- **Lemmatization Example** -->
-The children are playing games and running fast.
-
-***📊 NLP Technique Logic ***
+## 📊 NLP Technique Logic
 | Technique        | Description |
 |------------------|-------------|
 | Tokenization     | Splits text into sentences and individual words |
@@ -78,13 +71,13 @@ The children are playing games and running fast.
 | TF-IDF           | Measures the importance of words in a document |
 | Word Embedding   | Represents words as binary numerical vectors |
 
-***⚠️ Limitations ***
+### ⚠️ Limitations 
 No deep learning or ML model is used
 Word embeddings are binary and not semantic
 Designed for learning and demonstration purposes
 Advanced embeddings like Word2Vec, GloVe, or BERT are not included intentionally to keep the project beginner-friendly.
 
-***🎓 Academic Note ***
+## 🎓 Academic Note 
 This project is suitable for:
 NLP coursework
 Python & Streamlit practice
@@ -92,15 +85,15 @@ Mini projects
 Lab experiments and viva
 It emphasizes understanding NLP preprocessing concepts visually.
 
-***👤 Author ***
+## 👤 Author 
 Satyabrata Pradhan
 B.Tech – Computer Science & Engineering
 
-***📌 Future Improvements ***
+## 📌 Future Improvements 
 Add Word2Vec / GloVe embeddings
 Integrate sentiment analysis model
 Deploy on Streamlit Cloud
 Add data export (CSV) feature
 Improve UI with charts and graphs
 
-***⭐ If you find this project helpful, feel free to star the repository!***
+**⭐ If you find this project helpful, feel free to star the repository!**
