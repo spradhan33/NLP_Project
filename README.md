@@ -56,9 +56,9 @@ pip install streamlit nltk spacy pandas scikit-learn
 python -m spacy download en_core_web_sm
 ```
 
-  simple_text: "Aman is the HOD of HIT and loves NLP."
-  noisy_text: "NLP!!! is 100% useful in 2025 & beyond :)"
-  lemmatization_example: "The children are playing games and running fast."
+  -simple_text: "Aman is the HOD of HIT and loves NLP."
+  -noisy_text: "NLP!!! is 100% useful in 2025 & beyond :)"
+  -lemmatization_example: "The children are playing games and running fast."
 
 ```
 ## 📊 NLP Technique Logic
